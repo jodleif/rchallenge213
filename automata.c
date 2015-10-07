@@ -15,11 +15,15 @@ void next_iteration(char *current_iteration, char *next_iter, size_t len)
 
 }
 
+
+// malloc in here - free after you're done with the "results!"
 char *make_iteration(const char *based_on)
 {
-        if(based_on == NULL)
-                return NULL;
+        // Small check
         size_t len = strlen(based_on);
+        if(based_on == NULL || len == 0)
+                return NULL;
+
         char* iteration = malloc(len*sizeof(char)+2);
         iteration[0] = iteration[len+1] = 0;
 
