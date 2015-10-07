@@ -38,6 +38,6 @@ https://www.reddit.com/r/dailyprogrammer/comments/3jz8tt/20150907_challenge_213_
                    X   X   X   X   X   X   X   X   X   X   X   X   X   X   X   X                  
                   X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X X
 ### Build and run
-cmake . 
-make
-./automata
+cmake . <br/>
+make <br/>
+./automata <br/>
